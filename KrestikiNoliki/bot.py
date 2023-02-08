@@ -106,7 +106,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
 
 if __name__ == '__main__':
-    app = ApplicationBuilder().token("6111558891:AAG1pQIQIqWUH20fhu8Euggcbu9iOTvdCKo").build() 
+    app = ApplicationBuilder().token("BOT_Token").build() 
 
     app.add_handler(CommandHandler('start', newGame))
     app.add_handler(CommandHandler('new_game', newGame))
